@@ -12,8 +12,8 @@ import {
 } from './types/sections';
 
 export const greetings: GreetingsType = {
-  name: 'Hanzla Tauqeer',
-  title: "Hi all, I'm Hanzla",
+  name: 'Yuvraj Angad Singh',
+  title: "Hi all, I'm Yuvraj Angad",
   description:
     "I'm passionate Full Stack web developer having an experience of web applications with Python, Django, React.js, Next.js and Blockchain development on Ethereum, Solidity, Web3.js, Moralis, and Brownie Framework.",
   resumeLink:
@@ -21,18 +21,18 @@ export const greetings: GreetingsType = {
 };
 
 export const openSource = {
-  githubUserName: '1hanzla100',
+  githubUserName: 'yuvrajangadsingh',
 };
 
 export const contact = {};
 
 export const socialLinks: SocialLinksType = {
-  url: 'https://1hanzla100.github.io/',
-  linkedin: 'https://www.linkedin.com/in/1hanzla100/',
-  github: 'https://github.com/1hanzla100',
-  instagram: 'https://www.instagram.com/__hanzla100',
-  facebook: 'https://www.facebook.com/1hanzla100',
-  twitter: 'https://twitter.com/1hanzla100',
+  url: 'https://yuvrajangadsingh.github.io/',
+  linkedin: 'https://www.linkedin.com/in/yuvrajangadsingh/',
+  github: 'https://github.com/yuvrajangadsingh',
+  instagram: 'https://www.instagram.com/yuvrajangadsingh',
+  facebook: 'https://www.facebook.com/yuvrajangadsingh',
+  twitter: 'https://twitter.com/yuvrajangads',
 };
 
 export const skillsSection: SkillsSectionType = {
@@ -196,15 +196,15 @@ export const skillsSection: SkillsSectionType = {
 export const SkillBars: SkillBarsType[] = [
   {
     Stack: 'Frontend/Design', //Insert stack or technology you have experience in
-    progressPercentage: '90', //Insert relative proficiency in percentage
+    progressPercentage: '70', //Insert relative proficiency in percentage
   },
   {
     Stack: 'Backend',
-    progressPercentage: '70',
+    progressPercentage: '80',
   },
   {
     Stack: 'Programming',
-    progressPercentage: '60',
+    progressPercentage: '80',
   },
 ];
 
@@ -261,23 +261,23 @@ export const projects: ProjectType[] = [
   {
     name: 'developer-portfolio',
     desc: 'Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.',
-    github: 'https://github.com/1hanzla100/developer-portfolio',
-    link: 'https://developer-portfolio-1hanzla100.vercel.app/',
+    github: 'https://github.com/yuvrajangadsingh/developer-portfolio',
+    link: 'https://developer-portfolio-yuvrajangadsingh.vercel.app/',
   },
   {
     name: 'AtlasMart',
     desc: 'With Atlas Mart, it’s easy to find the products with the best price and ship them straight to your door.',
-    github: 'https://github.com/1hanzla100/Django-React-Marketplace',
+    github: 'https://github.com/yuvrajangadsingh/Django-React-Marketplace',
   },
   {
     name: 'Technota (Forum)',
     desc: 'Get hands-on experience in technical skills with Technota',
-    github: 'https://github.com/1hanzla100/django-react-forum',
+    github: 'https://github.com/yuvrajangadsingh/django-react-forum',
   },
   {
     name: 'Shopaza (Ecommerce)',
     desc: 'Now your reach to all your favorite entertainment and luxury items is just one touch apart',
-    github: 'https://github.com/1hanzla100/Django-ecommerce',
+    github: 'https://github.com/yuvrajangadsingh/Django-ecommerce',
   },
 ];
 
@@ -299,19 +299,19 @@ export const showContactUs: boolean = true;
 
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
-  title: 'Hanzla Tauqeer',
+  title: 'Yuvraj Angad Singh',
   description:
-    'A passionate Full Stack Web Developer and Blockchain Developer.',
-  author: 'Hanzla Tauqeer',
+    'A passionate Software Engineer with proficiency in Backend Development.',
+  author: 'Yuvraj Angad Singh',
   image: 'https://avatars3.githubusercontent.com/u/59178380?v=4',
-  url: 'https://developer-portfolio-1hanzla100.vercel.app',
+  url: 'https://yuvrajangadsingh.me',
   keywords: [
-    'Hanzla',
-    'Hanzla Tauqeer',
-    '@1hanzla100',
-    '1hanzla100',
+    'Yuvraj Angad',
+    'Yuvraj Angad Singh',
+    '@yuvrajangadsingh',
+    'yuvrajangadsingh',
     'Portfolio',
-    'Hanzla Portfolio ',
-    'Hanzla Tauqeer Portfolio',
+    'Yuvraj Angad Portfolio ',
+    'Yuvraj Angad Singh Portfolio',
   ],
 };
