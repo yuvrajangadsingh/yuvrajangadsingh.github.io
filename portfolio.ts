@@ -43,11 +43,11 @@ export const skillsSection: SkillsSectionType = {
       title: 'Full Stack Development',
       lottieAnimationFile: '/lottie/skills/fullstack.json', // Path of Lottie Animation JSON File
       skills: [
-        emoji(
-          '⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js'
-        ),
+        // emoji(
+        //   '⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js'
+        // ),
         emoji('⚡ Building responsive static websites using Next.js'),
-        emoji('⚡ Building RESTful APIs in Django & Django REST Framework'),
+        emoji('⚡ Building RESTful APIs in NodeJS & SpringBoot Framework'),
       ],
       softwareSkills: [
         {
@@ -72,7 +72,7 @@ export const skillsSection: SkillsSectionType = {
         },
         {
           skillName: 'Python',
-          fontAwesomeClassName: 'logos:python',
+          fontAwesomeClassName: 'logos:spring-boot',
         },
         {
           skillName: 'Django',
