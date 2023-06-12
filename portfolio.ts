@@ -15,9 +15,9 @@ export const greetings: GreetingsType = {
   name: 'Yuvraj Angad Singh',
   title: "Hi all, I'm Yuvraj Angad",
   description:
-    "I'm passionate Full Stack web developer having an experience of web applications with Python, Django, React.js, Next.js and Blockchain development on Ethereum, Solidity, Web3.js, Moralis, and Brownie Framework.",
+    "Experienced Full Stack software engineer proficient in Back-End web development, REST APIs, Microservices, MongoDB, Spring Boot, Java, and GraphQL. Skilled in IVR gateway construction, business chat app development, and system performance optimization. Strong knowledge of TypeScript, JavaScript, Node.js, and Next.js.",
   resumeLink:
-    'https://docs.google.com/document/d/1_4RIfbyt4FFHW_bNplnoINQr01neTu7XDeeUlT_2O_k/edit?usp=sharing',
+    'https://drive.google.com/file/d/11_LUaKqfvE5QTc4boXLRkNsvtegWztfg/view?usp=sharing',
 };
 
 export const openSource = {
@@ -75,15 +75,6 @@ export const skillsSection: SkillsSectionType = {
           fontAwesomeClassName: 'logos:spring-boot',
         },
         {
-          skillName: 'Django',
-          fontAwesomeClassName: 'vscode-icons:file-type-django',
-        },
-
-        {
-          skillName: 'Redux',
-          fontAwesomeClassName: 'logos:redux',
-        },
-        {
           skillName: 'NPM',
           fontAwesomeClassName: 'logos:npm-icon',
         },
@@ -108,16 +99,8 @@ export const skillsSection: SkillsSectionType = {
       softwareSkills: [
         // ? Check README To get icon details
         {
-          skillName: 'AWS',
-          fontAwesomeClassName: 'logos:aws',
-        },
-        {
           skillName: 'Azure',
           fontAwesomeClassName: 'logos:microsoft-azure',
-        },
-        {
-          skillName: 'Heroku',
-          fontAwesomeClassName: 'logos:heroku-icon',
         },
         {
           skillName: 'PostgreSQL',
@@ -149,47 +132,47 @@ export const skillsSection: SkillsSectionType = {
         },
       ],
     },
-    {
-      title: 'Blockchain',
-      lottieAnimationFile: '/lottie/skills/ethereum.json', // Path of Lottie Animation JSON File
-      skills: [
-        emoji(
-          '⚡ Experience in developing Smart Contract using Solidity & Ethereum'
-        ),
-        emoji(
-          '⚡ Building Scripts for automated testing & deployment of Smart Contracts using Brownie & Infura'
-        ),
-        emoji(
-          '⚡ Experience of using Openzeppelin Smart Contract Standards & Chainlink Oracles'
-        ),
-        emoji('⚡ Developing NFT Smart Contracts using ERC-721 Token Standard'),
-        emoji(
-          '⚡ Building Dapps with React.js & Solidity using Web3.js, Moralis & IPFS'
-        ),
-      ],
-      softwareSkills: [
-        {
-          skillName: 'Ethereum',
-          fontAwesomeClassName: 'logos:ethereum',
-        },
-        {
-          skillName: 'Solidity',
-          fontAwesomeClassName: 'logos:solidity',
-        },
-        {
-          skillName: 'Web3js',
-          fontAwesomeClassName: 'logos:web3js',
-        },
-        {
-          skillName: 'Metamask',
-          fontAwesomeClassName: 'logos:metamask-icon',
-        },
-        {
-          skillName: 'Ganache',
-          fontAwesomeClassName: 'logos:ganache-icon',
-        },
-      ],
-    },
+    // {
+    //   title: 'Blockchain',
+    //   lottieAnimationFile: '/lottie/skills/ethereum.json', // Path of Lottie Animation JSON File
+    //   skills: [
+    //     emoji(
+    //       '⚡ Experience in developing Smart Contract using Solidity & Ethereum'
+    //     ),
+    //     emoji(
+    //       '⚡ Building Scripts for automated testing & deployment of Smart Contracts using Brownie & Infura'
+    //     ),
+    //     emoji(
+    //       '⚡ Experience of using Openzeppelin Smart Contract Standards & Chainlink Oracles'
+    //     ),
+    //     emoji('⚡ Developing NFT Smart Contracts using ERC-721 Token Standard'),
+    //     emoji(
+    //       '⚡ Building Dapps with React.js & Solidity using Web3.js, Moralis & IPFS'
+    //     ),
+    //   ],
+    //   softwareSkills: [
+    //     {
+    //       skillName: 'Ethereum',
+    //       fontAwesomeClassName: 'logos:ethereum',
+    //     },
+    //     {
+    //       skillName: 'Solidity',
+    //       fontAwesomeClassName: 'logos:solidity',
+    //     },
+    //     {
+    //       skillName: 'Web3js',
+    //       fontAwesomeClassName: 'logos:web3js',
+    //     },
+    //     {
+    //       skillName: 'Metamask',
+    //       fontAwesomeClassName: 'logos:metamask-icon',
+    //     },
+    //     {
+    //       skillName: 'Ganache',
+    //       fontAwesomeClassName: 'logos:ganache-icon',
+    //     },
+    //   ],
+    // },
   ],
 };
 
@@ -210,11 +193,11 @@ export const SkillBars: SkillBarsType[] = [
 
 export const educationInfo: EducationType[] = [
   {
-    schoolName: 'Harvard University',
-    subHeader: 'Master of Science in Computer Science',
-    duration: 'September 2017 - April 2019',
+    schoolName: 'Chitkara University',
+    subHeader: 'Bachelor of Engineering in Computer Science',
+    duration: 'August 2017 - June 2021',
     desc: 'Participated in the research of XXX and published 3 papers.',
-    grade: 'Grade A',
+    grade: '9.27 CGPA',
     descBullets: [
       'Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit',
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
@@ -223,76 +206,104 @@ export const educationInfo: EducationType[] = [
 ];
 
 export const experience: ExperienceType[] = [
+  // {
+  //   role: 'Frontend Developer',
+  //   company: 'Duseca Software',
+  //   companyLogo: '/img/icons/common/dusecaSoftware.jpg',
+  //   date: 'Apr 2022 – Jun 2022',
+  //   desc: 'I worked as frontend web developer to design web based admin dashboards for mulitple apps using Django, Bootstrap, jQuery, Chart.js and some other libraries.',
+  // },
+  // {
+  //   role: 'API Engineer',
+  //   company: 'Duseca Software',
+  //   companyLogo: '/img/icons/common/dusecaSoftware.jpg',
+  //   date: 'Jan 2022 – Mar 2022',
+  //   desc: 'I worked as API Engineer on a Kale App. Kale is a community platform for the creation of social reviews based on verified transactions. I built Fully Optimized and High Performance RESTful APIs using Django, DjangoRESTFramework, PostgresSQL, JWT Authentication, AWS, Integrated Plaid APIs for Fetching Bank Transactions, Integrated Sentry for monitoring Django Server and deployed the API on Heroku Server.',
+  //   // descBullets: [
+  //   // 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
+  //   // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+  //   // ],
+  // },
+  // {
+  //   role: 'Full Stack Developer',
+  //   company: 'Bleed-AI',
+  //   companyLogo: '/img/icons/common/bleedAI.jpg',
+  //   date: 'Sept 2021 - Oct 2021',
+  //   desc: 'Worked as django web developer to create a website in which I integrated computer vision AI model (built by the team of BleedAI) to process YouTube URLs and show Real Time processing on Website using Django Channels WebSockets , threading for running multiple instances of AI Model, jQuery for UI rendering and deployed it on Heroku server.',
+  // },
+  // {
+  //   role: 'Backend Developer',
+  //   company: 'Wapidu',
+  //   companyLogo: '/img/icons/common/wapidu.jpg',
+  //   date: 'Sept 2021',
+  //   desc: 'Worked as a Django Developer to integrate Stripe payment gateway in wapidu.com and Created REST APIs using Django REST Framework to integrate Django Stripe backend to Vue.js Frontend and Deployed it on Azure based Docker container registry.',
+  // },
   {
-    role: 'Frontend Developer',
-    company: 'Duseca Software',
-    companyLogo: '/img/icons/common/dusecaSoftware.jpg',
-    date: 'Apr 2022 – Jun 2022',
-    desc: 'I worked as frontend web developer to design web based admin dashboards for mulitple apps using Django, Bootstrap, jQuery, Chart.js and some other libraries.',
+    role: 'Software Engineer II',
+    company: 'GeekyAnts',
+    companyLogo: '/img/icons/common/geekyants.jpg',
+    date: 'Oct 2022 - Present',
+    desc: 'Developed an Interactive Voice Response (IVR) gateway for a large telecoms business, reducing customer wait time by 20%. Created a Business Chat App that increased client satisfaction by 15%. Implemented software updates to improve system performance by 10%.',
   },
   {
-    role: 'API Engineer',
-    company: 'Duseca Software',
-    companyLogo: '/img/icons/common/dusecaSoftware.jpg',
-    date: 'Jan 2022 – Mar 2022',
-    desc: 'I worked as API Engineer on a Kale App. Kale is a community platform for the creation of social reviews based on verified transactions. I built Fully Optimized and High Performance RESTful APIs using Django, DjangoRESTFramework, PostgresSQL, JWT Authentication, AWS, Integrated Plaid APIs for Fetching Bank Transactions, Integrated Sentry for monitoring Django Server and deployed the API on Heroku Server.',
-    // descBullets: [
-    // 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
-    // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    // ],
+    role: 'Software Engineer',
+    company: 'GeekyAnts',
+    companyLogo: '/img/icons/common/geekyants.jpg',
+    date: 'Jul 2021 - Oct 2022',
+    desc: 'Implemented a semi-automated interview panel to increase candidate throughput by 30%. Managed the Backend and corporate portal, developing both frontend and backend components. Assisted new joiners in understanding Backend Configuration, reducing onboarding time by 20%. Implemented a queue system with Docker to automate jobs.',
   },
   {
-    role: 'Full Stack Developer',
-    company: 'Bleed-AI',
-    companyLogo: '/img/icons/common/bleedAI.jpg',
-    date: 'Sept 2021 - Oct 2021',
-    desc: 'Worked as django web developer to create a website in which I integrated computer vision AI model (built by the team of BleedAI) to process YouTube URLs and show Real Time processing on Website using Django Channels WebSockets , threading for running multiple instances of AI Model, jQuery for UI rendering and deployed it on Heroku server.',
+    role: 'Software Engineer',
+    company: 'topgeek - Product of GeekyAnts',
+    companyLogo: '/img/icons/common/topgeek.jpg',
+    date: 'Sep 2020 - Sep 2021',
+    desc: 'Contributed to the development of an automated interview website, Topgeek, increasing candidate throughput by 30%. Worked on backend and frontend components, implementing REST APIs, microservices, and other web development technologies. Collaborated with the team to integrate third-party APIs and successfully completed all modules within the specified timeframe.',
   },
   {
-    role: 'Backend Developer',
-    company: 'Wapidu',
-    companyLogo: '/img/icons/common/wapidu.jpg',
-    date: 'Sept 2021',
-    desc: 'Worked as a Django Developer to integrate Stripe payment gateway in wapidu.com and Created REST APIs using Django REST Framework to integrate Django Stripe backend to Vue.js Frontend and Deployed it on Azure based Docker container registry.',
-  },
+    role: 'Software Engineer Intern',
+    company: 'GeekyAnts',
+    companyLogo: '/img/icons/common/geekyants.jpg',
+    date: 'May 2020 - Jul 2021',
+    desc: "Developed a portal for tracking incoming and outgoing couriers, integrating third-party APIs for data retrieval. Integrated multiple modules into the company's main website, allowing live changes based on updates in the admin portal. Ensured a cohesive user experience between the website and modules.",
+  }
 ];
 
 export const projects: ProjectType[] = [
+  // {
+  //   name: 'developer-portfolio',
+  //   desc: 'Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.',
+  //   github: 'https://github.com/yuvrajangadsingh/developer-portfolio',
+  //   link: 'https://developer-portfolio-yuvrajangadsingh.vercel.app/',
+  // },
   {
-    name: 'developer-portfolio',
-    desc: 'Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.',
-    github: 'https://github.com/yuvrajangadsingh/developer-portfolio',
-    link: 'https://developer-portfolio-yuvrajangadsingh.vercel.app/',
+    name: 'TopGeek',
+    desc: "With TopGeek's Recruiting AI, get hired quickly and reliably. Set up your profile | Add skills | Take automated interviews.",
+    link: 'https://topgeek.io/',
   },
-  {
-    name: 'AtlasMart',
-    desc: 'With Atlas Mart, it’s easy to find the products with the best price and ship them straight to your door.',
-    github: 'https://github.com/yuvrajangadsingh/Django-React-Marketplace',
-  },
-  {
-    name: 'Technota (Forum)',
-    desc: 'Get hands-on experience in technical skills with Technota',
-    github: 'https://github.com/yuvrajangadsingh/django-react-forum',
-  },
-  {
-    name: 'Shopaza (Ecommerce)',
-    desc: 'Now your reach to all your favorite entertainment and luxury items is just one touch apart',
-    github: 'https://github.com/yuvrajangadsingh/Django-ecommerce',
-  },
+  // {
+  //   name: 'Technota (Forum)',
+  //   desc: 'Get hands-on experience in technical skills with Technota',
+  //   github: 'https://github.com/yuvrajangadsingh/django-react-forum',
+  // },
+  // {
+  //   name: 'Shopaza (Ecommerce)',
+  //   desc: 'Now your reach to all your favorite entertainment and luxury items is just one touch apart',
+  //   github: 'https://github.com/yuvrajangadsingh/Django-ecommerce',
+  // },
 ];
 
-export const feedbacks: FeedbackType[] = [
-  {
-    name: 'John Smith',
-    feedback:
-      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.',
-  },
-  {
-    name: 'John Smith',
-    feedback:
-      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.',
-  },
-];
+// export const feedbacks: FeedbackType[] = [
+//   {
+//     name: 'John Smith',
+//     feedback:
+//       'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.',
+//   },
+//   {
+//     name: 'John Smith',
+//     feedback:
+//       'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.',
+//   },
+// ];
 
 // option to hide or show the ContactUs component
 export const showContactUs: boolean = true;
