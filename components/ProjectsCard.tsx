@@ -41,7 +41,7 @@ const ProjectsCard = ({ name, desc, github, link, isLive }: ProjectType) => {
                     </span>
                     <span className="nav-link-inner--text ml-1">
                       {' '}
-                      {isLive ? 'Live Linke' : 'Demo'}
+                      {isLive ? 'Live Link' : 'Demo'}
                     </span>
                   </Button>
                 ) : null}
