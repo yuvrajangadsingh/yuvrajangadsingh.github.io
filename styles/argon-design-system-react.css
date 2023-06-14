@@ -18098,10 +18098,38 @@ textarea[resize="horizontal"] {
 	height: auto;
 }
 
+.progress-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.progress-label {
+	margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+	.progress-container {
+		flex-direction: row;
+		align-items: flex-start;
+    }
+
+    .progress-label {
+      margin-right: 0;
+      margin-bottom: 5px;
+    }
+
+	.progress-percentage {
+		margin-left: 0;
+		margin-top: 5px;
+	}
+  }
+
 .progress-label span {
 	display: inline-block;
 	color: #172b4d;
-	font-size: 0.625rem;
+	font-size: 1rem;
 	font-weight: 600;
 	text-transform: uppercase;
 	padding: 0.25rem 0rem;
