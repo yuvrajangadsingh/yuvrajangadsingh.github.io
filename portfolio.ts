@@ -26,12 +26,12 @@ export const openSource = {
 export const contact = {};
 
 export const socialLinks: SocialLinksType = {
-  url: 'https://yuvrajangadsingh.github.io/',
+  // url: 'https://yuvrajangadsingh.github.io/',
   linkedin: 'https://www.linkedin.com/in/yuvrajangadsingh/',
+  twitter: 'https://twitter.com/yuvrajangads',
   github: 'https://github.com/yuvrajangadsingh',
   instagram: 'https://www.instagram.com/yuvrajangadsingh',
   facebook: 'https://www.facebook.com/yuvrajangadsingh',
-  twitter: 'https://twitter.com/yuvrajangads',
 };
 
 export const skillsSection: SkillsSectionType = {
