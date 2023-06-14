@@ -138,7 +138,7 @@ export const educationInfo: EducationType[] = [
     schoolName: 'Chitkara University',
     subHeader: 'Bachelor of Engineering in Computer Science',
     duration: 'August 2017 - June 2021',
-    desc: 'Participated in the research of XXX and published 3 papers.',
+    desc: "Part Of University's Coding Academy, a group of selective students having quality coding skills in the batch",
     grade: '9.27 CGPA'
   },
 ];
@@ -179,6 +179,7 @@ export const projects: ProjectType[] = [
     name: 'TopGeek',
     desc: "With TopGeek's Recruiting AI, get hired quickly and reliably. Set up your profile | Add skills | Take automated interviews.",
     link: 'https://topgeek.io/',
+    isLive: true
   },
   // {
   //   name: 'Technota (Forum)',
