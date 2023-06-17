@@ -13,6 +13,7 @@ import { openSource, showContactUs } from '../portfolio';
 import SEO from '../components/SEO';
 import Contact from '../components/ContactUs';
 import { GithubUserType } from '../types';
+import GoogleAnalytics from '../components/GoogleAnalytics';
 
 export default function Home({
   githubProfileData,
@@ -31,6 +32,7 @@ export default function Home({
       <Projects />
       {showContactUs ? <Contact /> : null}
       <GithubProfileCard {...githubProfileData} />
+      <GoogleAnalytics />
     </div>
   );
 }
