@@ -210,7 +210,7 @@ export const seoData: SEODataType = {
     '@yuvrajangadsingh',
     'yuvrajangadsingh',
     'Portfolio',
-    'Yuvraj Angad Portfolio ',
+    'Yuvraj Angad Portfolio',
     'Yuvraj Angad Singh Portfolio',
   ],
 };
