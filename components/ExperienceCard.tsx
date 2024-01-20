@@ -30,19 +30,16 @@ const ExperienceCard = ({
               src={companyLogo}
               style={{
                 objectFit: 'cover',
-                left: 0,
-                right: 0,
-                top: '7rem',
-                marginLeft: 'auto',
-                marginRight: 'auto',
-                width: '8rem',
-                height: '8rem',
+                width: '6rem', // Adjust the width as needed
+                height: '6rem', // Adjust the height as needed
                 borderRadius: '50%',
+                float: 'left', // Align to the left
+                marginRight: '1rem', // Add some margin for spacing
               }}
               className="shadow mb-3"
               alt={companyLogo}
             />
-            <CardTitle tag="h4" className="mb-2">
+            <CardTitle tag="h4" className="mt-2 mb-2">
               {company}
             </CardTitle>
             <CardSubtitle tag="h5" className="mb-2">
