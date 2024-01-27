@@ -16,7 +16,7 @@ export const greetings: GreetingsType = {
   description:
     'Skilled full-stack software engineer excelling in back-end web development with expertise in REST APIs, microservices, MongoDB, Spring Boot, Java, and GraphQL. Proficient in TypeScript, JavaScript, Node.js, and Next.js. Has hands-on experience with Genesys technology, demonstrating a solid grasp of its functionalities.',
   resumeLink:
-    'https://drive.google.com/file/d/11_LUaKqfvE5QTc4boXLRkNsvtegWztfg/view?usp=sharing',
+    'https://drive.google.com/file/d/1kanPJneQMPXFilTu1knW-tcceMHm6Mz5/view?usp=drive_link',
 };
 
 export const openSource = {

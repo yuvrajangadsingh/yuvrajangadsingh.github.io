@@ -21,7 +21,7 @@ export default function Home({
   githubProfileData: any;
 }) {
   return (
-    <div>
+    <div id="start">
       <SEO />
       <Navigation />
       <Greetings />
