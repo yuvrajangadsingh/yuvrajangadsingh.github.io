@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import { Card, Col, Row, Container } from 'reactstrap';
 import { GithubUserType } from '../types';
@@ -18,12 +19,12 @@ const GithubProfileCard = ({ avatar_url, bio, location }: GithubUserType) => {
               />
             </Col>
             <Col lg="8" className="order-lg-1">
-              <h2 className="text-white">Reach Out to me!</h2>
+              <h2 className="text-white">Let's Connect!</h2>
               <p className="lead text-white mt-3">
-                DISCUSS A PROJECT OR JUST WANT TO SAY HI? MY INBOX IS OPEN FOR
-                ALL
+                Whether you're looking to discuss a project or just want to say
+                hi, my inbox is open for all your messages.
               </p>
-              <p className="text-white mt-3">{bio}</p>
+              <p className="text-white mt-1">{bio}</p>
               <div className="my-3 icon-shape bg-gradient-white shadow rounded text-info">
                 <i className="ni ni-pin-3 text-info mr-2" />
                 {location}

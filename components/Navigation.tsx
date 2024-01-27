@@ -149,6 +149,22 @@ const Navigation = () => {
                     </NavLink>
                   </NavItem>
                 )}
+                {socialLinks.mail && (
+                  <NavItem>
+                    <NavLink
+                      rel="noopener"
+                      aria-label="Mail"
+                      className="nav-link-icon"
+                      href={socialLinks.mail}
+                      target="_blank"
+                    >
+                      <i className="fa fa-envelope-square" />
+                      <span className="nav-link-inner--text d-lg-none ml-2">
+                        Mail
+                      </span>
+                    </NavLink>
+                  </NavItem>
+                )}
               </Nav>
             </UncontrolledCollapse>
           </Container>
