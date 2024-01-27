@@ -13,7 +13,7 @@ const Greetings = () => {
   return (
     <main>
       <div className="position-relative">
-        <section className="section section-lg section-shaped pb-250">
+        <section className="section section-lg section-shaped">
           <div className="shape shape-style-1 bg-gradient-info">
             <span />
             <span />
@@ -66,7 +66,7 @@ const Greetings = () => {
               x="0"
               y="0"
             >
-              <polygon className="fill-white" points="2560 0 2560 100 0 100" />
+              <polygon className="fill-white" points="2560 0 2560 110 0 100" />
             </svg>
           </div>
         </section>
