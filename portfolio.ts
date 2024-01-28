@@ -45,7 +45,15 @@ export const skillsSection: SkillsSectionType = {
       skills: [
         emoji('⚡ Building responsive Single-Page-Apps (SPA) & PWA in Next.js'),
         emoji('⚡ Building responsive static websites using Next.js'),
-        emoji('⚡ Building RESTful APIs in NodeJS & SpringBoot Framework'),
+        emoji(
+          '⚡ Building RESTful, SOAP, GraphQL, and WebSocket APIs in NodeJS & SpringBoot Framework'
+        ),
+        emoji(
+          '⚡ Managing dependencies and scripting tasks efficiently with npm and yarn'
+        ),
+        emoji(
+          '⚡ Implementing robust web applications using Laravel for seamless integration and data fetching'
+        ),
       ],
       softwareSkills: [
         // {
@@ -57,12 +65,32 @@ export const skillsSection: SkillsSectionType = {
         //   fontAwesomeClassName: 'vscode-icons:file-type-css',
         // },
         {
+          skillName: 'Laravel',
+          fontAwesomeClassName: 'vscode-icons:file-type-blade',
+        },
+        {
           skillName: 'JavaScript',
           fontAwesomeClassName: 'logos:javascript',
         },
         {
+          skillName: 'TypeScript',
+          fontAwesomeClassName: 'vscode-icons:file-type-typescript',
+        },
+        {
+          skillName: 'Nodejs',
+          fontAwesomeClassName: 'vscode-icons:file-type-node',
+        },
+        {
+          skillName: 'Java',
+          fontAwesomeClassName: 'vscode-icons:file-type-java',
+        },
+        {
           skillName: 'Nextjs',
           fontAwesomeClassName: 'vscode-icons:file-type-light-next',
+        },
+        {
+          skillName: 'GraphQL',
+          fontAwesomeClassName: 'vscode-icons:file-type-graphql',
         },
         {
           skillName: 'NPM',
