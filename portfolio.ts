@@ -145,6 +145,7 @@ export const experience: ExperienceType[] = [
     companyLogo: '/img/icons/common/geekyants.jpg',
     date: 'May 2020 - Present',
     desc: 'Joined as an intern and progressed to Software Engineer III over 4 years. Currently a core member of the Phase 2 design and idea team, contributing to the IVR-based customer support app and managing backend development for client estimation. Achievements include developing an IVR gateway, creating a Business Chat App, implementing software updates, and built a website E2E for automated interview processes for hiring candidates.',
+    link: 'https://geekyants.com/yuvraj-angad-singh',
   },
   // {
   //   role: 'Software Engineer III',
