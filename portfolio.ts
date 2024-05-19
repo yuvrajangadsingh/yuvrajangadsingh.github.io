@@ -175,6 +175,14 @@ export const experience: ExperienceType[] = [
     desc: 'Joined as an intern and progressed to Software Engineer III over 4 years. Currently a core member of the Phase 2 design and idea team, contributing to the IVR-based customer support app and managing backend development for client estimation. Achievements include developing an IVR gateway, creating a Business Chat App, implementing software updates, and built a website E2E for automated interview processes for hiring candidates.',
     link: 'https://geekyants.com/yuvraj-angad-singh',
   },
+  {
+    role: 'Software Engineer',
+    company: 'topgeek - Product of GeekyAnts',
+    companyLogo: '/img/icons/common/topgeek.jpg',
+    date: 'Sep 2020 - Sep 2021',
+    desc: 'Contributed to the development of an automated interview website, Topgeek, increasing candidate throughput by 30%. Worked on backend and frontend components, implementing REST APIs, microservices, and other web development technologies. Collaborated with the team to integrate third-party APIs and successfully completed all modules within the specified timeframe.',
+    link: 'https://topgeek.io/blog/profile/yuvraj-angad-singh-b714',
+  },
   // {
   //   role: 'Software Engineer III',
   //   company: 'GeekyAnts',
@@ -203,13 +211,6 @@ export const experience: ExperienceType[] = [
   //   date: 'May 2020 - Jul 2021',
   //   desc: "Developed a portal for tracking incoming and outgoing couriers, integrating third-party APIs for data retrieval. Integrated multiple modules into the company's main website, allowing live changes based on updates in the admin portal. Ensured a cohesive user experience between the website and modules.",
   // },
-  {
-    role: 'Software Engineer',
-    company: 'topgeek - Product of GeekyAnts',
-    companyLogo: '/img/icons/common/topgeek.jpg',
-    date: 'Sep 2020 - Sep 2021',
-    desc: 'Contributed to the development of an automated interview website, Topgeek, increasing candidate throughput by 30%. Worked on backend and frontend components, implementing REST APIs, microservices, and other web development technologies. Collaborated with the team to integrate third-party APIs and successfully completed all modules within the specified timeframe.',
-  },
 ];
 
 export const projects: ProjectType[] = [
