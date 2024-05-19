@@ -31,7 +31,7 @@ export const socialLinks: SocialLinksType = {
   twitter: 'https://twitter.com/yuvrajangads',
   github: 'https://github.com/yuvrajangadsingh',
   instagram: 'https://www.instagram.com/yuvrajangadsingh',
-  facebook: 'https://www.facebook.com/yuvrajangadsingh',
+  // facebook: 'https://www.facebook.com/yuvrajangadsingh',
   mail: 'mailto:mail@yuvrajangadsingh.me',
 };
 
