@@ -215,10 +215,17 @@ export const experience: ExperienceType[] = [
 export const projects: ProjectType[] = [
   {
     name: 'TopGeek',
-    desc: "With TopGeek's Recruiting AI, get hired quickly and reliably. Set up your profile | Add skills | Take automated interviews.",
+    desc: 'An automated hiring platform designed to streamline the talent acquisition process. It handles screening, interview scheduling, resume management, and applicant tracking with a strong understanding of microservice architecture and system design. Utilizing Redis for queuing and performance optimization, and developing CRUD operations with GraphQL endpoints. The project included CRM platform development and RBAC implementation. As a Full Stack Developer, responsible for both the Backend and corporate portal, I implemented a queue system using Docker and Redis, and automated jobs with cron. I also assisted new team members with Backend configurations.',
     link: 'https://topgeek.io/',
     isLive: true,
   },
+  {
+    name: 'Customer Support Mobile Application',
+    desc: 'A mobile application providing customer support by agents leveraging the Genesys platform. The backend, built with Springboot, Java, and GraphQL, used a GraphQL adapter to interact with Genesys and was designed to be a plug-and-play solution for multiple businesses with varying requirements. It includes functionalities such as IVR, inbound & outbound calling, advanced calling features (hold/unhold, mute/unmute, transfer, conference, preview callback, and precision routing), and advanced chat features. The backend also utilized Azure for cloud services.',
+    link: '',
+    isLive: false,
+  },
+
   // {
   //   name: 'Technota (Forum)',
   //   desc: 'Get hands-on experience in technical skills with Technota',
