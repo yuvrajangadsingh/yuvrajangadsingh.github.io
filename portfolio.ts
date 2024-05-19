@@ -219,6 +219,13 @@ export const projects: ProjectType[] = [
     link: 'https://topgeek.io/',
     isLive: true,
   },
+  {
+    name: 'Customer Support Mobile Application',
+    desc: 'A mobile application providing customer support by agents leveraging the Genesys platform. The backend, built with Springboot, Java, and GraphQL, used a GraphQL adapter to interact with Genesys and was designed to be a plug-and-play solution for multiple businesses with varying requirements. It includes functionalities such as IVR, inbound & outbound calling, advanced calling features (hold/unhold, mute/unmute, transfer, conference, preview callback, and precision routing), and advanced chat features. The backend also utilized Azure for cloud services.',
+    link: '',
+    isLive: false,
+  },
+
   // {
   //   name: 'Technota (Forum)',
   //   desc: 'Get hands-on experience in technical skills with Technota',
