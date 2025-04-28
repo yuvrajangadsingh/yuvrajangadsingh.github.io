@@ -31,7 +31,7 @@ export const socialLinks: SocialLinksType = {
   twitter: 'https://twitter.com/yuvrajangads',
   github: 'https://github.com/yuvrajangadsingh',
   instagram: 'https://www.instagram.com/yuvrajangadsingh',
-  facebook: 'https://www.facebook.com/yuvrajangadsingh',
+  // facebook: 'https://www.facebook.com/yuvrajangadsingh',
   mail: 'mailto:mail@yuvrajangadsingh.me',
 };
 
@@ -45,7 +45,15 @@ export const skillsSection: SkillsSectionType = {
       skills: [
         emoji('⚡ Building responsive Single-Page-Apps (SPA) & PWA in Next.js'),
         emoji('⚡ Building responsive static websites using Next.js'),
-        emoji('⚡ Building RESTful APIs in NodeJS & SpringBoot Framework'),
+        emoji(
+          '⚡ Building RESTful, SOAP, GraphQL, and WebSocket APIs in NodeJS & SpringBoot Framework'
+        ),
+        emoji(
+          '⚡ Managing dependencies and scripting tasks efficiently with npm and yarn'
+        ),
+        emoji(
+          '⚡ Implementing robust web applications using Laravel for seamless integration and data fetching'
+        ),
       ],
       softwareSkills: [
         // {
@@ -57,12 +65,32 @@ export const skillsSection: SkillsSectionType = {
         //   fontAwesomeClassName: 'vscode-icons:file-type-css',
         // },
         {
+          skillName: 'Laravel',
+          fontAwesomeClassName: 'vscode-icons:file-type-blade',
+        },
+        {
           skillName: 'JavaScript',
           fontAwesomeClassName: 'logos:javascript',
         },
         {
+          skillName: 'TypeScript',
+          fontAwesomeClassName: 'vscode-icons:file-type-typescript',
+        },
+        {
+          skillName: 'Nodejs',
+          fontAwesomeClassName: 'vscode-icons:file-type-node',
+        },
+        {
+          skillName: 'Java',
+          fontAwesomeClassName: 'vscode-icons:file-type-java',
+        },
+        {
           skillName: 'Nextjs',
           fontAwesomeClassName: 'vscode-icons:file-type-light-next',
+        },
+        {
+          skillName: 'GraphQL',
+          fontAwesomeClassName: 'vscode-icons:file-type-graphql',
         },
         {
           skillName: 'NPM',
@@ -147,6 +175,14 @@ export const experience: ExperienceType[] = [
     desc: 'Joined as an intern and progressed to Software Engineer III over 4 years. Currently a core member of the Phase 2 design and idea team, contributing to the IVR-based customer support app and managing backend development for client estimation. Achievements include developing an IVR gateway, creating a Business Chat App, implementing software updates, and built a website E2E for automated interview processes for hiring candidates.',
     link: 'https://geekyants.com/yuvraj-angad-singh',
   },
+  {
+    role: 'Software Engineer',
+    company: 'topgeek - Product of GeekyAnts',
+    companyLogo: '/img/icons/common/topgeek.jpg',
+    date: 'Sep 2020 - Sep 2021',
+    desc: 'Contributed to the development of an automated interview website, Topgeek, increasing candidate throughput by 30%. Worked on backend and frontend components, implementing REST APIs, microservices, and other web development technologies. Collaborated with the team to integrate third-party APIs and successfully completed all modules within the specified timeframe.',
+    link: 'https://topgeek.io/blog/profile/yuvraj-angad-singh-b714',
+  },
   // {
   //   role: 'Software Engineer III',
   //   company: 'GeekyAnts',
@@ -175,22 +211,22 @@ export const experience: ExperienceType[] = [
   //   date: 'May 2020 - Jul 2021',
   //   desc: "Developed a portal for tracking incoming and outgoing couriers, integrating third-party APIs for data retrieval. Integrated multiple modules into the company's main website, allowing live changes based on updates in the admin portal. Ensured a cohesive user experience between the website and modules.",
   // },
-  {
-    role: 'Software Engineer',
-    company: 'topgeek - Product of GeekyAnts',
-    companyLogo: '/img/icons/common/topgeek.jpg',
-    date: 'Sep 2020 - Sep 2021',
-    desc: 'Contributed to the development of an automated interview website, Topgeek, increasing candidate throughput by 30%. Worked on backend and frontend components, implementing REST APIs, microservices, and other web development technologies. Collaborated with the team to integrate third-party APIs and successfully completed all modules within the specified timeframe.',
-  },
 ];
 
 export const projects: ProjectType[] = [
   {
     name: 'TopGeek',
-    desc: "With TopGeek's Recruiting AI, get hired quickly and reliably. Set up your profile | Add skills | Take automated interviews.",
+    desc: 'An automated hiring platform designed to streamline the talent acquisition process. It handles screening, interview scheduling, resume management, and applicant tracking with a strong understanding of microservice architecture and system design. Utilizing Redis for queuing and performance optimization, and developing CRUD operations with GraphQL endpoints. The project included CRM platform development and RBAC implementation. As a Full Stack Developer, responsible for both the Backend and corporate portal, I implemented a queue system using Docker and Redis, and automated jobs with cron. I also assisted new team members with Backend configurations.',
     link: 'https://topgeek.io/',
     isLive: true,
   },
+  {
+    name: 'Customer Support Mobile Application',
+    desc: 'A mobile application providing customer support by agents leveraging the Genesys platform. The backend, built with Springboot, Java, and GraphQL, used a GraphQL adapter to interact with Genesys and was designed to be a plug-and-play solution for multiple businesses with varying requirements. It includes functionalities such as IVR, inbound & outbound calling, advanced calling features (hold/unhold, mute/unmute, transfer, conference, preview callback, and precision routing), and advanced chat features. The backend also utilized Azure for cloud services.',
+    link: '',
+    isLive: false,
+  },
+
   // {
   //   name: 'Technota (Forum)',
   //   desc: 'Get hands-on experience in technical skills with Technota',
