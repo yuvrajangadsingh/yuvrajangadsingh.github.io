@@ -40,7 +40,7 @@ export default function WorkoutPlan() {
           25 mins Treadmill Walk (5.2 km/h, 7% incline)
         </div>
       </section>
-
+      <hr className="my-4" />
       {/* Tuesday */}
       <section className="bg-white p-4 rounded-lg mb-2">
         <h2 className="text-2xl font-semibold">
@@ -75,7 +75,7 @@ export default function WorkoutPlan() {
           20 mins Treadmill Walk (5.0 km/h, 8% incline)
         </div>
       </section>
-
+      <hr className="my-4" />
       {/* Wednesday */}
       <section className="bg-white p-4 rounded-lg mb-2">
         <h2 className="text-2xl font-semibold">Wednesday - Active Recovery</h2>
@@ -85,7 +85,7 @@ export default function WorkoutPlan() {
           <li>Full Body Stretching - 15-20 mins</li>
         </ul>
       </section>
-
+      <hr className="my-4" />
       {/* Thursday */}
       <section className="bg-white p-4 rounded-lg mb-2">
         <h2 className="text-2xl font-semibold">
@@ -124,7 +124,7 @@ export default function WorkoutPlan() {
           </ul>
         </div>
       </section>
-
+      <hr className="my-4" />
       {/* Friday */}
       <section className="bg-white p-4 rounded-lg mb-2">
         <h2 className="text-2xl font-semibold">
@@ -158,7 +158,7 @@ export default function WorkoutPlan() {
           20-25 mins Treadmill Walk (5.5 km/h, 8% incline)
         </div>
       </section>
-
+      <hr className="my-4" />
       {/* Saturday */}
       <section className="bg-white p-4 rounded-lg mb-2">
         <h2 className="text-2xl font-semibold">
@@ -170,7 +170,7 @@ export default function WorkoutPlan() {
           <li>Abs Finisher: Crunches + Bicycle Kicks + Plank Variations</li>
         </ul>
       </section>
-
+      <hr className="my-4" />
       {/* Sunday */}
       <section className="bg-white p-4 rounded-lg mb-2">
         <h2 className="text-2xl font-semibold">Sunday - Full Rest</h2>
@@ -183,18 +183,23 @@ export default function WorkoutPlan() {
 
       {/* Cool Down Section */}
       <section className="bg-white p-4 rounded-lg">
-        <h2 className="text-2xl font-semibold">
-          Post-Workout Cool Down Stretching
-        </h2>
-        <ul className="list-disc list-inside mt-2">
-          <li>Standing Quad Stretch - 20-30 sec each side</li>
-          <li>Hamstring Stretch - 20-30 sec</li>
-          <li>Glute Stretch (lying cross) - 20-30 sec</li>
-          <li>Chest Wall Stretch - 20-30 sec</li>
-          <li>Shoulder Across Body Stretch - 20-30 sec</li>
-          <li>Upper Back Stretch - 20-30 sec</li>
-          <li>Child&apos;s Pose - 20-30 sec</li>
-        </ul>
+        <div
+          className="p-2 p-md-4 rounded"
+          style={{ backgroundColor: '#cfe2f3' }}
+        >
+          <h2 className="text-2xl font-semibold mb-2">
+            Post-Workout Cool Down Stretching
+          </h2>
+          <ul className="list-disc list-inside mt-2">
+            <li>Standing Quad Stretch - 20-30 sec each side</li>
+            <li>Hamstring Stretch - 20-30 sec</li>
+            <li>Glute Stretch (lying cross) - 20-30 sec</li>
+            <li>Chest Wall Stretch - 20-30 sec</li>
+            <li>Shoulder Across Body Stretch - 20-30 sec</li>
+            <li>Upper Back Stretch - 20-30 sec</li>
+            <li>Child&apos;s Pose - 20-30 sec</li>
+          </ul>
+        </div>
       </section>
     </div>
   );
