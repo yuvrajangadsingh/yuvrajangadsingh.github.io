@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Detect package manager 👻
         id: detect-package-manager
         run: |
@@ -37,14 +37,14 @@ jobs:
             exit 1
           fi
       - name: Setup Node 🍉
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           cache: ${{ steps.detect-package-manager.outputs.manager }}
           node-version: '20.11.0'
 
       - name: Setup Pages 🔧
         id: pages
-        uses: actions/configure-pages@v1
+        uses: actions/configure-pages@v4
         with:
           # Automatically inject basePath in your Next.js configuration file and disable
           # server side image optimization (https://nextjs.org/docs/api-reference/next/image#unoptimized).
@@ -82,4 +82,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages 🚀
         id: deployment
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v4
