@@ -13,7 +13,8 @@ function MyApp({ Component, pageProps }: AppProps) {
       <footer style={{ marginTop: '10px' }}>
         <Container>
           <p className="text-center">
-            ® 2024 Yuvraj Angad Singh. All rights reserved.
+            ® {new Date().getFullYear()} Yuvraj Angad Singh. All rights
+            reserved.
           </p>
         </Container>
       </footer>
