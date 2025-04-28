@@ -193,7 +193,7 @@ export default function WorkoutPlan() {
           <li>Chest Wall Stretch - 20-30 sec</li>
           <li>Shoulder Across Body Stretch - 20-30 sec</li>
           <li>Upper Back Stretch - 20-30 sec</li>
-          <li>Child's Pose - 20-30 sec</li>
+          <li>Child&apos;s Pose - 20-30 sec</li>
         </ul>
       </section>
     </div>
