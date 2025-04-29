@@ -72,6 +72,16 @@ export default function WorkoutPlan() {
             <h3 className="font-semibold">Post Strength Cardio:</h3>
             25 mins Treadmill Walk (5.2 km/h, 7% incline)
           </div>
+          <div
+            className="mt-2 p-2 p-md-4 rounded"
+            style={{ backgroundColor: '#fff3cd' }}
+          >
+            <h3 className="font-semibold">Arm Finisher:</h3>
+            <ul className="list-disc list-inside">
+              <li>Dumbbell Bicep Curls - 3x12</li>
+              <li>Rope Tricep Pushdowns - 3x15</li>
+            </ul>
+          </div>
         </section>
         <hr className="my-4" />
         {/* Tuesday */}
@@ -158,6 +168,16 @@ export default function WorkoutPlan() {
               <li>5 min cooldown walk</li>
             </ul>
           </div>
+          <div
+            className="mt-2 p-2 p-md-4 rounded"
+            style={{ backgroundColor: '#fff3cd' }}
+          >
+            <h3 className="font-semibold">Arm Finisher:</h3>
+            <ul className="list-disc list-inside">
+              <li>Hammer Curls - 3x12</li>
+              <li>Overhead Dumbbell Triceps Extension - 3x15</li>
+            </ul>
+          </div>
         </section>
         <hr className="my-4" />
         {/* Friday */}
@@ -204,6 +224,9 @@ export default function WorkoutPlan() {
             <li>Treadmill Incline Walk - 45 mins (5.0-5.2 km/h, 7% incline)</li>
             <li>Abs Finisher: Crunches + Bicycle Kicks + Plank Variations</li>
           </ul>
+          <p className="text-gray-600 mt-2">
+            Optional: Light Dumbbell Curls - 2 sets if energy allows
+          </p>
         </section>
         <hr className="my-4" />
         {/* Sunday */}
