@@ -8,26 +8,23 @@
     :root {
       --bg: #f0f0f0;
       --bar: #fff;
-      --text: #333;
-      --border: #ddd;
-      --btn-bg: #333;
-      --btn-text: #fff;
-      --btn-hover: #555;
+      --text: #111;
+      --muted: #666;
+      --border: #e0e0e0;
     }
     @media (prefers-color-scheme: dark) {
       :root {
-        --bg: #1a1a1a;
-        --bar: #252525;
-        --text: #ddd;
-        --border: #333;
-        --btn-bg: #555;
-        --btn-hover: #777;
+        --bg: #111;
+        --bar: #1a1a1a;
+        --text: #f0f0f0;
+        --muted: #999;
+        --border: #2a2a2a;
       }
     }
     * { box-sizing: border-box; margin: 0; padding: 0; }
     html, body { height: 100%; }
     body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-family: Avenir, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
       background: var(--bg);
       color: var(--text);
       display: flex;
@@ -37,22 +34,44 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-      padding: 12px 20px;
+      padding: 16px 24px;
       background: var(--bar);
       border-bottom: 1px solid var(--border);
       flex-shrink: 0;
     }
-    .bar h1 { font-size: 16px; font-weight: 600; }
+    .signature {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+    .avatar {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      border: 2px solid var(--border);
+    }
+    .name {
+      font-size: 18px;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+    }
+    .subtitle {
+      font-size: 13px;
+      color: var(--muted);
+      font-weight: 400;
+    }
     .download {
       display: inline-block;
-      padding: 8px 16px;
-      background: var(--btn-bg);
-      color: var(--btn-text);
+      padding: 8px 18px;
+      background: var(--text);
+      color: var(--bg);
       text-decoration: none;
-      border-radius: 6px;
+      border-radius: 8px;
       font-size: 14px;
+      font-weight: 500;
+      transition: opacity 0.15s;
     }
-    .download:hover { background: var(--btn-hover); }
+    .download:hover { opacity: 0.8; }
     .viewer {
       flex: 1;
       display: flex;
@@ -64,25 +83,34 @@
       width: 100%;
       max-width: 900px;
       height: 100%;
-      border: 1px solid var(--border);
-      border-radius: 4px;
+      border: none;
+      border-radius: 8px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.12);
       background: #fff;
     }
     @media (max-width: 640px) {
-      .bar { padding: 10px 14px; }
-      .bar h1 { font-size: 14px; }
-      .download { padding: 6px 12px; font-size: 13px; }
+      .bar { padding: 12px 16px; }
+      .name { font-size: 16px; }
+      .subtitle { display: none; }
+      .avatar { width: 32px; height: 32px; }
+      .download { padding: 6px 14px; font-size: 13px; }
       .viewer { padding: 10px; }
     }
   </style>
 </head>
 <body>
   <div class="bar">
-    <h1>Yuvraj Angad Singh</h1>
+    <div class="signature">
+      <img class="avatar" src="https://avatars.githubusercontent.com/u/36276913?v=4" alt="">
+      <div>
+        <div class="name">Yuvraj Angad Singh</div>
+        <div class="subtitle">Figuring out intelligent systems.</div>
+      </div>
+    </div>
     <a class="download" href="Yuvraj-Angad-Singh-Resume.pdf" download>Download PDF</a>
   </div>
   <div class="viewer">
-    <iframe src="Yuvraj-Angad-Singh-Resume.pdf" type="application/pdf"></iframe>
+    <iframe src="Yuvraj-Angad-Singh-Resume.pdf#toolbar=0&navpanes=0" type="application/pdf"></iframe>
   </div>
 </body>
 </html>
