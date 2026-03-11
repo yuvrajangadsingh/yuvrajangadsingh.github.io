@@ -6,184 +6,83 @@
   <title>Yuvraj Angad Singh — Resume</title>
   <style>
     :root {
-      --bg: #fff;
-      --text: #16181d;
-      --muted: #5b6470;
-      --line: #d8dde5;
-      --link: #355d8a;
-      --chip: #f5f7fa;
+      --bg: #f0f0f0;
+      --bar: #fff;
+      --text: #333;
+      --border: #ddd;
+      --btn-bg: #333;
+      --btn-text: #fff;
+      --btn-hover: #555;
     }
     @media (prefers-color-scheme: dark) {
       :root {
-        --bg: #111317;
-        --text: #eef1f5;
-        --muted: #a8b0ba;
-        --line: #2b3038;
-        --link: #8db3df;
-        --chip: #171b21;
+        --bg: #1a1a1a;
+        --bar: #252525;
+        --text: #ddd;
+        --border: #333;
+        --btn-bg: #555;
+        --btn-hover: #777;
       }
     }
-    * { box-sizing: border-box; }
-    html { background: var(--bg); color: var(--text); }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body { height: 100%; }
     body {
-      margin: 0;
-      font: 15px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      -webkit-font-smoothing: antialiased;
-      text-rendering: optimizeLegibility;
-    }
-    .page {
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 40px 28px 48px;
-      position: relative;
-    }
-    .print-btn {
-      position: absolute;
-      top: 32px;
-      right: 28px;
-      border: 1px solid var(--line);
-      background: var(--chip);
-      color: var(--muted);
-      padding: 8px 12px;
-      border-radius: 999px;
-      font: inherit;
-      font-size: 13px;
-      cursor: pointer;
-    }
-    .print-btn:hover { color: var(--text); border-color: var(--muted); }
-    h1 {
-      margin: 0 0 6px;
-      font-size: 34px;
-      line-height: 1.05;
-      letter-spacing: -0.03em;
-      max-width: 540px;
-    }
-    .summary { margin: 18px 0 22px; color: var(--muted); }
-    .meta, .role-head, .edu {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
       display: flex;
-      flex-wrap: wrap;
-      gap: 4px 14px;
+      flex-direction: column;
     }
-    .meta { color: var(--muted); font-size: 14px; }
-    a { color: var(--link); text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    section { margin-top: 22px; }
-    h2 {
-      margin: 0 0 10px;
-      padding-bottom: 5px;
-      border-bottom: 1px solid var(--line);
-      font-size: 12px;
-      font-weight: 700;
-      letter-spacing: 0.14em;
-      text-transform: uppercase;
-    }
-    .job { margin-bottom: 14px; }
-    .role-head {
+    .bar {
+      display: flex;
+      align-items: center;
       justify-content: space-between;
-      align-items: baseline;
-      gap: 4px 10px;
-      margin-bottom: 4px;
+      padding: 12px 20px;
+      background: var(--bar);
+      border-bottom: 1px solid var(--border);
+      flex-shrink: 0;
     }
-    .company { font-weight: 700; }
-    .title, .date, .location, .skills, .open-source, .edu { color: var(--muted); }
-    ul {
-      margin: 6px 0 0 18px;
-      padding: 0;
+    .bar h1 { font-size: 16px; font-weight: 600; }
+    .download {
+      display: inline-block;
+      padding: 8px 16px;
+      background: var(--btn-bg);
+      color: var(--btn-text);
+      text-decoration: none;
+      border-radius: 6px;
+      font-size: 14px;
     }
-    li { margin: 0 0 4px; }
-    .skills, .open-source { margin: 0; }
+    .download:hover { background: var(--btn-hover); }
+    .viewer {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+      overflow: auto;
+    }
+    .viewer iframe {
+      width: 100%;
+      max-width: 900px;
+      height: 100%;
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      background: #fff;
+    }
     @media (max-width: 640px) {
-      body { font-size: 14px; }
-      .page { padding: 24px 18px 36px; }
-      .print-btn { top: 18px; right: 18px; }
-      h1 { font-size: 28px; max-width: none; padding-right: 112px; }
-      .role-head { display: block; }
-      .date { margin-top: 2px; display: block; }
-    }
-    @page { size: A4; margin: 0.42in; }
-    @media print {
-      :root {
-        --bg: #fff;
-        --text: #000;
-        --muted: #444;
-        --line: #cfcfcf;
-        --link: #2d4f73;
-        --chip: #fff;
-      }
-      body { font-size: 10.7pt; line-height: 1.28; background: #fff; }
-      .page { max-width: none; padding: 0; }
-      .print-btn { display: none; }
-      a { text-decoration: none; }
-      section { margin-top: 14px; }
-      .job { margin-bottom: 10px; }
-      .summary { margin: 12px 0 16px; }
-      li { margin-bottom: 2px; }
+      .bar { padding: 10px 14px; }
+      .bar h1 { font-size: 14px; }
+      .download { padding: 6px 12px; font-size: 13px; }
+      .viewer { padding: 10px; }
     }
   </style>
 </head>
 <body>
-  <main class="page">
-    <button class="print-btn" onclick="window.print()">Download PDF</button>
+  <div class="bar">
     <h1>Yuvraj Angad Singh</h1>
-    <div class="meta">
-      <span>Bengaluru, India</span>
-      <span><a href="tel:+919780081897">+919780081897</a></span>
-      <span><a href="mailto:yuvrajangad.s@gmail.com">yuvrajangad.s@gmail.com</a></span>
-      <span><a href="https://linkedin.com/in/yuvrajangadsingh">linkedin.com/in/yuvrajangadsingh</a></span>
-      <span><a href="https://yuvrajangadsingh.com">yuvrajangadsingh.com</a></span>
-    </div>
-    <p class="summary">Software Engineer with 5+ years of experience building production AI systems at scale. Currently powering health decisions for 6M+ users at August AI through multi-model orchestration, document intelligence, and real-time streaming. Previously built enterprise GenAI solutions at AntEngage. Thrive in early-stage teams, owning systems end-to-end.</p>
-
-    <section>
-      <h2>Experience</h2>
-      <article class="job">
-        <div class="role-head"><span><span class="company">August AI</span> | <span class="title">AI Engineer</span></span><span class="date">May 2025 - Present</span></div>
-        <ul>
-          <li>Architected multi-model AI orchestration with intelligent fallback across OpenAI, Gemini, and Anthropic, serving 6M+ users across 160 countries.</li>
-          <li>Coordinated document intelligence pipelines processing lab reports and medical PDFs at scale — biomarker extraction, deduplication, and corrupt file detection.</li>
-          <li>Built real-time audio AI with voice activity detection, function calling, and interrupt scheduling using Gemini.</li>
-          <li>Authored memory systems enabling personalized AI responses through context retrieval and fragment deduplication.</li>
-          <li>Built multimodal processing handling text, audio, and PDF inputs for health queries with real-time streaming.</li>
-          <li>Initiated benchmarking frameworks and ML-based language detection, driving continuous model accuracy improvements.</li>
-        </ul>
-      </article>
-      <article class="job">
-        <div class="role-head"><span><span class="company">AntEngage Technology Pvt Ltd</span> | <span class="title">Co-Founder &amp; AI Lead</span></span><span class="date">April 2024 - May 2025</span></div>
-        <ul>
-          <li>Engineered a GenAI platform leveraging Google AI and Vertex AI, enabling Tier-1 support to resolve 80% of customer inquiries without escalation, decreasing Tier-2 workload by 40%.</li>
-          <li>Presented an end-to-end paid PoC for a large healthcare client, enabling secure handling of 5,000+ monthly support calls with PII-safe transcription and intelligent resolution workflows.</li>
-          <li>Architected backend infra (Python, MongoDB, GCP) to support real-time AI pipelines handling 1M+ API calls/month, reducing response time by ~200ms.</li>
-          <li>Analyzed and tuned prompts and reranking strategies to boost LLM response quality by 35% and reduce latency by 50%.</li>
-          <li>Spearheaded product ideation and GTM alongside CXOs, converting enterprise trials into paid POCs within the first 3 months.</li>
-        </ul>
-      </article>
-      <article class="job">
-        <div class="role-head"><span><span class="company">GeekyAnts India Private Limited</span> | <span class="title">Software Engineer III</span></span><span class="date">May 2020 - March 2024</span></div>
-        <ul>
-          <li>Scaled backend &amp; AI models, reducing response latency by 50% and elevating user engagement by 35%.</li>
-          <li>Partnered with Jio to pioneer IVR gateway routing, reducing wait times by 20%.</li>
-          <li>Launched a Business Chat App processing over 10,000 messages daily.</li>
-          <li>Led GCP migration, cutting infra costs by 20% and boosting scalability.</li>
-          <li>Streamlined CI/CD with Docker, enabling faster releases (2 weeks → 3 days).</li>
-          <li>Mentored 4+ junior engineers on clean code practices, reducing post-deployment issues by 30%.</li>
-        </ul>
-      </article>
-    </section>
-
-    <section>
-      <h2>Open Source</h2>
-      <p class="open-source">13 PRs merged into gh CLI (4), gemini-cli (3), codex (3), cal.com (2), and Google ADK (1). Side projects: greens (Homebrew CLI for contribution mirroring), vibecheck (AI code smell detector on npm), shuck (social media content extractor).</p>
-    </section>
-
-    <section>
-      <h2>Education</h2>
-      <p class="edu">Chitkara University — B.E. in Computer Science &amp; Engineering (CGPA: 9.27) | June 2021</p>
-    </section>
-
-    <section>
-      <h2>Skills</h2>
-      <p class="skills">Python, FastAPI, Node.js, Docker, Git, MongoDB, PostgreSQL, Azure, GCP, OpenAI, Anthropic, Gemini, RAG, Embeddings, Vector Search, LangChain, Real-time Streaming, CI/CD, GitHub Actions</p>
-    </section>
-  </main>
+    <a class="download" href="Yuvraj-Angad-Singh-Resume.pdf" download>Download PDF</a>
+  </div>
+  <div class="viewer">
+    <iframe src="Yuvraj-Angad-Singh-Resume.pdf" type="application/pdf"></iframe>
+  </div>
 </body>
 </html>
